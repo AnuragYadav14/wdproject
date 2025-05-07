@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+  }
+  header {
+    background: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
+  nav a {
+    color: white;
+    margin: 0 1em;
+    text-decoration: none;
+  }
+  .hero img, .services-list img, main img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  .services-list {
+    list-style: none;
+    padding: 0;
+  }
+  .services-list li {
+    margin: 1em 0;
+  }
+  form {
+    padding: 1em;
+    background: white;
+    max-width: 400px;
+    margin: auto;
+  }
+  button {
+    padding: 0.5em 1em;
+    background: #333;
+    color: white;
+    border: none;
+  }
+  footer {
+    text-align: center;
+    background: #222;
+    color: white;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+   .imageBox{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    width:26vw;
+    height: 26wh;
+    box-shadow: 2px 4px 8px black;
+
+   } 
+  #image
+  {
+    width:25vw;
+    height: 25wh;
+  }
+ .imageBox:hover{
+    transform:translateY(-10px);
+    box-shadow: 4px 8px 16px black;
+ }
+ .mainbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
+
+  
+  
